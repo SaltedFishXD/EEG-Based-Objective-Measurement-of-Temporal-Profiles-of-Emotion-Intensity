@@ -3,7 +3,8 @@ Repetition code of the model for the paper "EEG-Based Objective Measurement of T
 
 
 In this work, we are investigating emotion intensity profile based on EEG signals.
-# install
+# Requirements
+> install
 > pip3 install -r requirements.txt
 ```
 argparse
