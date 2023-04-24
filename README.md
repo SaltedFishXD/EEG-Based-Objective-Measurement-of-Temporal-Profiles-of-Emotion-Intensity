@@ -5,4 +5,4 @@ This is the PyTorch implementation of the training process in our reserach:
 In this work, we are investigating emotion intensity profile based on EEG signals.
 
 # Run the code
-python main.py
+> python main.py
