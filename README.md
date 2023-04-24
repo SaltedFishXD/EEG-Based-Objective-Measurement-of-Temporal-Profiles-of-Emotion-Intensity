@@ -37,6 +37,7 @@ scipy==1.6.2
 | --batch-size		      | 128     	   | batch size for training dataset
 
 # github format
+```
 .
 ├── github                   # Score code files (alternatively `dist`)
 │   ├── main.py              # Main file to execute research 
@@ -51,5 +52,5 @@ scipy==1.6.2
 │   └── training.py          # Baseline model training process
 └── README.md
 
-
+```
 
