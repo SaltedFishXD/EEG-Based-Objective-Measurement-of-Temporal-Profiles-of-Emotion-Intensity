@@ -25,7 +25,7 @@ scipy==1.6.2
 | --subjects	              |	32	            |the number of training subjects
 | --label-type  		        | 'A'	           | emotion label ('A' : arousal 'V':valence)
 | --round 		              | 5             | baseline training repeated round
-| --weight_decays 	        | 1e-2           | 
+| --weight_decays 	        | 1e-2           | optimizer weight decays
 | --save-path	              | './save'       | the trained model saving file path
 | -testlist                 | False           | if test list existed ( True: exist; False: split train/test trials)
 | --testlist_file           | './save/arousal/'  | test list file path
