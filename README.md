@@ -36,3 +36,20 @@ scipy==1.6.2
 | --selection		    | 'time'     	     | selection method ('time': time interval method; 'score': score method)
 | --batch-size		      | 128     	   | batch size for training dataset
 
+# github format
+.
+├── github                   # Score code files (alternatively `dist`)
+│   ├── main.py              # Main file to execute research 
+│   ├── SCCNet.py            # Model architecture
+│   ├── channel_baseline.txt # Channel order for prepare data
+│   ├── func.py              # Functional tool use in research
+│   ├── generate_profile.py  # Code for generating emotion intensity value for trials
+│   ├── preprocess.py        # Prepare raw data in DEAP dataset
+│   ├── requirements.txt     # Requirement detail
+│   ├── score.py             # Score selection and retraining process
+│   ├── time_interval.py     # Time-interval selection and retraining process
+│   └── training.py          # Baseline model training process
+└── README.md
+
+
+
